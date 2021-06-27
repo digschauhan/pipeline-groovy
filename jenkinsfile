@@ -9,3 +9,5 @@ node('local'){
     pipeline.createReleases()
 
 }
+
+pipeline.deploy()

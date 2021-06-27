@@ -1,6 +1,8 @@
 
 def pipeline
 
+println "XXXX : Build started ..........."
+
 node('local'){
     pipeline = load 'Pipeline.groovy'
 

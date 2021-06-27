@@ -1,0 +1,11 @@
+
+def pipeline
+
+node('local'){
+    pipeline = load 'Pipeline.groovy'
+
+    pipeline.doCheckout()
+    pipeline.doBuild()
+    pipeline.createReleases()
+
+}

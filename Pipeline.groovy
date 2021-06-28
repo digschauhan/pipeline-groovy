@@ -1,5 +1,5 @@
 
-Class Pipeline{
+class Pipeline{
 
     boolean doCheckout(){
         println "Checking out code...."

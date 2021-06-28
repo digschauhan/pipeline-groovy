@@ -3,7 +3,9 @@ def pipeline
 
 println "XXXX : Build started ..........."
 
-node('local'){
+node(){
+    pwd()
+    
     pipeline = load 'Pipeline.groovy'
 
     pipeline.doCheckout()

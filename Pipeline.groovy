@@ -25,4 +25,10 @@ class Pipeline implements Serializable {
         println "Deploying the code ....."
         return true
     }
+
+
+    static void main(String[] args) {
+        println "Main() method called."
+    }
+
 }

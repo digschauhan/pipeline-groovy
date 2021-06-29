@@ -1,5 +1,5 @@
 
-class Pipeline{
+class Pipeline implements Serializable {
 
     boolean doCheckout(){
         println "Checking out code...."
